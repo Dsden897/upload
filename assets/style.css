@@ -1,0 +1,75 @@
+:root {
+    --primary: #4f46e5;
+    --primary-hover: #4338ca;
+    --bg: #f3f4f6;
+    --text: #1f2937;
+    --border: #e5e7eb;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.upload-card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.header h2 {
+    margin: 0 0 10px;
+    color: var(--text);
+}
+
+.header p {
+    color: #6b7280;
+    margin-bottom: 25px;
+}
+
+.drop-zone {
+    border: 2px dashed var(--primary);
+    border-radius: 10px;
+    padding: 40px 20px;
+    cursor: pointer;
+    background: #f9fafb;
+    transition: all 0.3s ease;
+}
+
+.drop-zone.dragover {
+    background: #eef2ff;
+    border-color: var(--primary-hover);
+}
+
+.drop-zone .icon {
+    font-size: 48px;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.browse-btn {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.status-message {
+    margin-top: 20px;
+    font-size: 14px;
+    min-height: 20px;
+}
+
+.status-message.success { color: #10b981; }
+.status-message.error { color: #ef4444; }
